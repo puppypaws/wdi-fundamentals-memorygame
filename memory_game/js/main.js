@@ -10,7 +10,7 @@ cardsInPlay.push('cardTwo');
 console.log('User flipped King')
 
 if (cardsInPlay.length === 2 && cardsInPlay[0] === cardsInPlay[2]) {
-console.log("You found a match!");
+alert("You found a match!");
 } else {
-    console.log("Sorry, try again.");
+    alert("Sorry, try again.");
 }
